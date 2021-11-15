@@ -20,6 +20,7 @@ footer {
     height: 85px;
     text-align: center;
     margin: 5px;
+
 }
 section, aside{
     border: 1px solid #ddbdd5;
@@ -29,16 +30,18 @@ section, aside{
     text-align: center;
 }
 section {
-    width: 50%;
+    width: 75%;
+    padding: 5px;
 }
 aside {
     width: 25%;
 }
 a{
-    display: block;
+    display: inline-block;
     color: white;
     text-decoration: none;
     position: relative;
+    padding: 5px;
   }
   
   a::after{
