@@ -6,22 +6,42 @@
     </head>
     <body>
         <header id= 'top'>
-            Cecilie Robb
+            <a href="#beginningofpage">Back to the Top</a>
+            <a href="#whoami">About Me</a>
+            <a href="#myprojects">Check out My work</a>
+            <a href="#contactme">Get in contact with me</a>
+            <a href="#bottom">End of Page</a>
         </header>
     <main>
         <aside class= 'left' id="side-column">
             Profile picture and professional links and skill sets metioned here.
         </aside>
         <section class='section'>
+            <h1 id='beginningofpage'>Cecilie Robb| Software Engineer</h1>
+            <p>Add some information about demographic I'm targeting</p>
             <img src="#" alt= 'girl and her dog' id='about-me-pic'/>
-            <h2>Who Am I?</h2>
+            <h2 id="whoami" class="headers">Who Am I?</h2>
             <p>I'm Cecilie! I got for Cece for Short.I'm a Software Engineer. I took an untradition path to tech! I have a Bachelor's of Science in Public Health, worked in direct patient care, now I'm in a full time Java immersive Course.</p>
             <p>In my free time, I like to hang with my sweet sweet pup <em>'Stormy Jean'</em>.We like to go on long walks through the neighborhood greeting the other people and pups! Then when it's time for a late afternoon pick-me-up. We head to local coffee spot (where were both known by name) to order an iced coffee and a pupaccino!</p>
-            <h2>Projects</h2>
+            <h2 id="myprojects" class="headers">Projects</h2>
             <p>I worked really hard on these ok!</p>
 
-            <h2>Let's Connect</h2>
-            <p>You can check my socials on the side bar or fill out my form</p>
+            <h2 id="contactme" class="headers">Let's Connect</h2>
+            <p>You can check my socials on the side bar or fill out my form!</p>
+            <form id="form" action="cecilie_robb@outlook.com">
+            <fieldset>
+                <label for="name">Full Name</label><br>
+                <input type="text" id= 'name' required><br>
+                <label for="phone">Phone Number</label><br>
+                <input type="number" id='phone' required><br>
+                <label for="email">Email Adress</label><br> 
+                <input type="email" id='email' required><br>
+                <label for="textarea"></label>
+                <label for="comment">Leave a Comment</label><br>
+                <textarea name='comment' rows='10' cols='30'>How Can I help you? Whats your perferred type of communication?</textarea><br>
+                <input type="submit" value="Submit">
+            </fieldset>    
+            </form>
         
         </section>
         <aside class='right' id='side-column'>
