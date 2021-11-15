@@ -1,0 +1,36 @@
+body {
+    background-color: #1d1e2c;
+    color: #f7ebec;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+main {
+    
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+header,
+footer {
+    border: 1px solid #ddbdd5;
+    border-radius: 20px;
+    background-color: #ac9fbb54;
+    height: 85px;
+    text-align: center;
+    margin: 5px;
+}
+section, aside{
+    border: 1px solid #ddbdd5;
+    border-radius: 20px;
+    background-color: #ac9fbb54;
+    margin: 5px;
+    text-align: center;
+}
+section {
+    width: 50%;
+}
+aside {
+    width: 25%;
+}
