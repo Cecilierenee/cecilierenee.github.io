@@ -5,6 +5,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     height: 100vh;
+    
 }
 main {
     
@@ -65,4 +66,9 @@ a{
       border-radius: 50%;
       border: solid #ddbdd5 2px;
       margin-top: 20px;
+  }
+  #about-me-pic{
+      width: 150px;
+      height:auto;
+      border: #ddbdd5 solid 2px;
   }
