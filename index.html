@@ -1,58 +1,200 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Cecilie Robb|Software Engineer</title>
-        <link rel="stylesheet" href="style.css"/>
-    </head>
-    <body>
-        <header id= 'top'>
-            <a href="#beginningofpage">Back to the Top</a>
-            <a href="#whoami">About Me</a>
-            <a href="#myprojects">Check out My work</a>
-            <a href="#contactme">Get in contact with me</a>
-            <a href="#bottom">End of Page</a>
-        </header>
-    <main>
-        <aside class= 'left' id="side-column">
-            <img id='picture1' alt="Site Creator" src="AXRL7968.JPG"/>
-            <p>Check out my Social Media!</p>
-            <a href="https://www.linkedin.com/in/cecilie-robb/">Linked In</a>
-            <a href="http://twitter.com/Cecilierenee">Twitter</a>
-        </aside>
-        <section class='section'>
-            <h1 id='beginningofpage'>Cecilie Robb| Software Engineer</h1>
-            <p>Looking to help local business' upgarde their websites!</p>
-            <img src="IMG_0876.JPG" alt= 'girl and her dog' id='about-me-pic'/>
-            <h2 id="whoami" class="headers">Who Am I?</h2>
-            <p>I'm Cecilie! I got for Cece for Short.I'm a Software Engineer. I took an untradition path to tech! I have a Bachelor's of Science in Public Health, worked in direct patient care, now I'm in a full time Java immersive Course.</p>
-            <p>In my free time, I like to hang with my sweet sweet pup <em>'Stormy Jean'</em>.We like to go on long walks through the neighborhood greeting the other people and pups! Then when it's time for a late afternoon pick-me-up. We head to local coffee spot (where were both known by name) to order an iced coffee and a pupaccino!</p>
-            <h2 id="myprojects" class="headers">Projects</h2>
-            <p>I worked really hard on these ok!</p>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css"/>
+    <title>CR | Web Developer</title>
+</head>
+<body>
+    <nav>
+        <h1>Cecilie Renee</h1>
+        <ul class="navigation">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu"><ion-icon class="bars" name="menu-outline"></ion-icon></button>
+    </nav>
+    <section class="hero" id="about">
+        <img src="homepage.svg" alt="Drawing of girl with afro sitting at computer" class="hero-img"/>
+        <div class="bio animate_animated animate_shakeX">
+            <h2 class="bio-title">About Me</h2>
+            <p class="bio-text">
+              Hi, I'm Cecilie! I'm a Software Developer based out of (born and raised) Louisville, Ky.<br>
+              I took quite an untraditional route when it comes to tech. I began my career in the medical field,<br>
+              and even recieved a B.S in public Health. This year(2020), I refound an intrest in coding and was forturnate enough<br>
+              to be accepted and participate in an immersive Java Program. <br>    
+            </p>
+        </div>
+    </section>
+    <section class="more-about">
+        <h2>More About Me</h2>
+        <p>
+        As mentioned above, I am currently in a Java immersive program. I'm about a month out from finishing up.<br>
+        So far in the chort, I have learned my way around html, css, and javascript. In unit 2, we have been working <br>
+        with Java, and learning to create API's and work on the back end of things. Within unit two, I have coded two apps<br>
+        and the api's that go along with them. I worked with programs like postman, and postgres to connect my program to<br>
+        databases. 
+        </p>
+        <p>
+          In my free time, I like to take walks around my neighborhood with my sweet pup.<br>
+          I worked in the medical field for over 6 years, and still have a passion for helping others<br>
+          I love all kinds of arts and crafts, painting is my favorite.<br>
+          I am a coffee fanatic!<br>
+        </p>
+        <p>
 
-            <h2 id="contactme" class="headers">Let's Connect</h2>
-            <p>You can check my socials on the side bar or fill out my form!</p>
-            <form id="form" action="cecilie_robb@outlook.com">
-            <fieldset>
-                <label for="name">Full Name</label><br>
-                <input type="text" id= 'name' required><br>
-                <label for="phone">Phone Number</label><br>
-                <input type="number" id='phone' required><br>
-                <label for="email">Email Adress</label><br> 
-                <input type="email" id='email' required><br>
-                <label for="textarea"></label>
-                <label for="comment">Leave a Comment</label><br>
-                <textarea name='comment' rows='10' cols='30'>How Can I help you? Whats your perferred type of communication?</textarea><br>
-                <input type="submit" value="Submit">
-            </fieldset>    
-            </form>
-        
+          I would love to help businesses within my community reach their web based business goals. Contact me, lets work together!
+        </p>
+      </section>
+      <section class="skills" id="skills">
+          <h2 class="skill-header">Languages I work with</h2>
+          <div class="skills-wrapper">  
+            <div class="first-set animate_animated animate_pulse">
+                <img src="https://img.icons8.com/ios/50/000000/html-5--v1.png" class="icon icon-card"
+                alt="html5"/>
+                <img src="https://img.icons8.com/ios/50/000000/css3.png" class="icon icon-card" alt="css3"/>
+                <img src="https://img.icons8.com/wired/64/000000/javascript-logo.png"
+                class="icon icon-card" alt="javascript"/>
+              </div>
+          </div>
+      </section>
+      <section class="projects" id="projects">
+        <h2 class="projects-title">Some of my Recent Projects</h2>
+        <div class="projects-container">
+          <div class="project-container project-card">
+            <img
+              src="images/Screenshot (4).png"
+              alt="Tic Tac Toe game"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">Tic Tac Toe Game</h3>
+            <p class="project-details">
+              This project was to showcase what we learned in the first unit of the program I am in.
+              Using HTML, CSS, and JS I was able to build an interective tic tac toe game. Give it a try!
+            </p>
+            <a href="https://cecilierenee.github.io/TicTakToe/" target="_blank" class="project-link">Check it Out</a>
+          </div>
+          <div class="project-container project-card">
+            <img
+              src="images/Screenshot (15).png"
+              alt="Artist landing page"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">Pricing Compnent</h3>
+            <p class="project-details">
+              This project is a simple pricing component on a website using HTML and CSS. 
+              Basically something you would see on a subscription based website or business. 
+            </p>
+            <a href="https://cecilierenee.github.io/Pricing-component/" target="_blank" class="project-link">Check it Out</a>
+          </div>
+          <div class="project-container project-card">
+            <img
+              src="images/Screenshot (7).png"
+              alt="vendor page"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">Business Landing Page</h3>
+            <p class="project-details">
+              This project was just a simple HTML and CSS based website that I put together. 
+              I was just practicing to keep my skills sharp while learning other fundamentals.
+            </p>
+            <a href="https://cecilierenee.github.io/Business-Landing-Page/" target="_blank" class="project-link">Check it Out</a>
+          </div>
+        </div>
+      </section>
+      <section class="contact" id="contact">
+          <h2>Contact Me</h2>
+          <div class="contact-form-container">
+            <div class="contact-form">
+              <form action="https://formspree.io/f/xlezrygk" method="POST">
+                <div class="form-control">
+                  <label for="name">Name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="sender-name"
+                    placeholder="Enter Your Name"
+                    class="input-field"
+                    required
+                  />
+                </div>
+                <div class="form-control">
+                  <label for="email">Email</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="sender-email"
+                    placeholder="Enter Your Email"
+                    class="input-field"
+                    required
+                  />
+                </div>
+                <div class="form-control">
+                  <label for="message">Message</label>
+                  <textarea
+                    id="message"
+                    cols="60"
+                    rows="10"
+                    placeholder="Enter Your Message"
+                    name="message"
+                    class="input-field"
+                    required
+                  ></textarea>
+                </div>
+                <input
+                  type="submit"
+                  value="Submit"
+                  id="submit-btn"
+                  class="submit-btn"
+                />
+              </form>
+            </div>
+          </div>
         </section>
+      </section>
+      <div class="socials">
+        <a href="http://twitter.com/Cecesosassy" target="_blank"
+          ><img
+            src="icons/twitter.png"
+            alt="Twitter"
+            loading="lazy"
+            class="socicon"
+        /></a>
+        <a href="http://instagram.com/Cecilierenee" target="_blank"
+          ><img
+            src="icons/instagram.png"
+            alt="Instagram"
+            loading="lazy"
+            class="socicon"
+        /></a>
+        <a href="https://www.linkedin.com/in/cecilie-robb/" target="_blank"
+          ><img
+            src="icons/linkedin.png"
+            alt="Linkedin"
+            loading="lazy"
+            class="socicon"
+        /></a>
+        <a href="https://www.youtube.com/channel/UCZiu02r6bYlz0dvSogvcFNQ" target="_blank"
+          ><img src="icons/youtube.png" alt="youtube" class="socicon"
+        /></a></div>
+        <footer>
+            <p class="copy">&copy; Copyright 2021</p>
+            <p class="copy">
+              Built with &#x2661; by
+              <a href="#" target="_blank"
+                >Cecilie R Robb</a
+              >
+            </p>
+      </footer>
+      <i class="scroll-up" id="scroll-up"><img src="https://img.icons8.com/ios-glyphs/30/000000/double-up--v2.png" class="socicon up-arrow" alt="scroll-up"/></i>
 
-    </main>
-        <footer id='bottom'>
-            Page desinged and developed by Cecilie 'Cece' Robb. 2021
-        </footer>
-        
-            
-    </body>
+    <script src="js/script.js"></script>
+</body>
 </html>
